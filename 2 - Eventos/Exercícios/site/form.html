@@ -9,6 +9,8 @@
     <title>Formulário</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
 </head>
 
 <body class="bg-light">
@@ -31,28 +33,28 @@
                                 <option>Música</option>
                             </select>
                         </div>
-                        <div class="col-md-6 mb-3">
+                        <div id="title" class="col-md-6 mb-3">
                             <label for="title">Título</label>
-                            <input type="text" class="form-control" id="title">
+                            <input type="text" class="form-control">
                         </div>
                     </div>
 
-                    <div class="mb-3">
+                    <div id="synopsis" class="mb-3">
                         <label for="synopsis">Sinopse</label>
                         <div class="input-group">
-                            <textarea class="form-control" id="synopsis"></textarea>
+                            <textarea class="form-control" ></textarea>
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div id="writer" class="row">
                         <div class="col-md-4 mb-3">
                             <label for="writer">Texto</label>
-                            <input type="text" class="form-control" id="writer">
+                            <input type="text" class="form-control" >
                         </div>
 
-                        <div class="col-md-4 mb-3">
+                        <div id="conception" class="col-md-4 mb-3">
                             <label for="conception">Concepção</label>
-                            <input type="text" class="form-control" id="conception">
+                            <input type="text" class="form-control" >
                         </div>
 
                         <div class="col-md-4 mb-3">
@@ -61,62 +63,62 @@
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div id="book" class="row">
                         <div class="col-md-6 mb-3">
                             <label for="book">Livro/Artigo/Brochura</label>
-                            <input type="text" class="form-control" id="book">
+                            <input type="text" class="form-control">
                         </div>
 
-                        <div class="col-md-3 mb-3">
+                        <div id="author" class="col-md-3 mb-3">
                             <label for="author">Autor</label>
-                            <input type="text" class="form-control" id="author">
+                            <input type="text" class="form-control">
                         </div>
 
-                        <div class="col-md-3 mb-3">
+                        <div id="moderator" class="col-md-3 mb-3">
                             <label for="moderator">Moderador</label>
-                            <input type="text" class="form-control" id="moderator">
+                            <input type="text" class="form-control">
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div id="curator" class="row">
                         <div class="col-md-4 mb-3">
                             <label for="curator">Curadoria</label>
-                            <input type="text" class="form-control" id="curator">
+                            <input type="text" class="form-control">
                         </div>
 
-                        <div class="col-md-6 mb-3">
+                        <div id="band" class="col-md-6 mb-3">
                             <label for="band">Artista/Banda</label>
-                            <input type="text" class="form-control" id="band">
+                            <input type="text" class="form-control">
                         </div>
                     </div>
 
-                    <div class="mb-3">
+                    <div id="cast" class="mb-3">
                         <label for="cast">Elenco</label>
                         <div class="input-group">
-                            <textarea class="form-control" id="cast"></textarea>
+                            <textarea class="form-control"></textarea>
                         </div>
                     </div>
 
-                    <div class="mb-3">
+                    <div id="guests" class="mb-3">
                         <label for="guests">Artistas Convidados</label>
                         <div class="input-group">
-                            <textarea class="form-control" id="guests"></textarea>
+                            <textarea class="form-control"></textarea>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-md-2 mb-3">
+                        <div id="duration" class="col-md-2 mb-3">
                             <label for="duration">Duração</label>
                             <div class="input-group">
-                                <input type="number" class="form-control" id="duration">
+                                <input type="number" class="form-control">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">min</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div id="classification" class="col-md-4 mb-3">
                             <label for="classification">Classificação Indicativa</label>
-                            <select class="custom-select d-block w-100" id="classification">
+                            <select class="custom-select d-block w-100">
                                 <option value="">-- Selecione --</option>
                                 <option>Livre</option>
                                 <option>12</option>
@@ -125,9 +127,9 @@
                                 <option>18</option>
                             </select>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div id="price" class="col-md-4 mb-3">
                             <label for="price">Valor da Entrada</label>
-                            <input type="number" class="form-control" id="price">
+                            <input type="number" class="form-control">
                         </div>
 
                         <div class="custom-control form-check-inline custom-checkbox" style="display:inline-flex;">
